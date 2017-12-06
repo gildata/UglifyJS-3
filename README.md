@@ -1,7 +1,7 @@
 UglifyJS 3 (zh-Hans)
 ==========
 
-> <p="UglifyJS is a JavaScript parser, minifier, compressor and beautifier toolkit.">UglifyJS 是一个JavaScript解析器，缩小器，压缩器和美化工具包。</p>
+> <p title="UglifyJS is a JavaScript parser, minifier, compressor and beautifier toolkit.">UglifyJS 是一个JavaScript解析器，缩小器，压缩器和美化工具包。</p>
 
 
 #### Note:
