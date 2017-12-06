@@ -1,28 +1,61 @@
 UglifyJS 3 (zh-Hans)
 ==========
 
-UglifyJS is a JavaScript parser, minifier, compressor and beautifier toolkit.
+> <p="UglifyJS is a JavaScript parser, minifier, compressor and beautifier toolkit.">UglifyJS 是一个JavaScript解析器，缩小器，压缩器和美化工具包。</p>
+
 
 #### Note:
-- **`uglify-js@3` has a simplified [API](#api-reference) and [CLI](#command-line-usage) that is not backwards compatible with [`uglify-js@2`](https://github.com/mishoo/UglifyJS2/tree/v2.x)**.
+- **`uglify-js@3` 具有一个专有 [API](#api-reference) 和 [CLI](#command-line-usage) ，且并不先后兼容 [`uglify-js@2`](https://github.com/mishoo/UglifyJS2/tree/v2.x)**.
 - **Documentation for UglifyJS `2.x` releases can be found [here](https://github.com/mishoo/UglifyJS2/tree/v2.x)**.
-- `uglify-js` only supports ECMAScript 5 (ES5).
-- Those wishing to minify
-ES2015+ (ES6+) should use the `npm` package [**uglify-es**](https://github.com/mishoo/UglifyJS2/tree/harmony).
+- `uglify-js` 只支持 ECMAScript 5 (ES5).
+- 如果你希望 minify ES2015+ (ES6+) 应该使用这个 `npm` 包 [**uglify-es**](https://github.com/mishoo/UglifyJS2/tree/harmony).
 
-Install
+安装
 -------
 
-First make sure you have installed the latest version of [node.js](http://nodejs.org/)
-(You may need to restart your computer after this step).
+首先确保你已经安装好了最新版的 [node.js](http://nodejs.org/)
+(在执行完这一步后，你可能需要重启电脑).
 
-From NPM for use as a command line app:
+## uglify-js
 
-    npm install uglify-js -g
+```sh
+# 从 NPM 全局安装，作为一个命令行工具使用:
+$ npm install --global uglify-js
+# Alias
+$ npm i -g uglify-js
 
-From NPM for programmatic use:
 
-    npm install uglify-js
+# 从 NPM 本地安装，作为项目的一个开发依赖包使用:
+$ npm install --save uglify-js
+$ npm install --save-dev uglify-js
+# Alias
+$ npm i -S uglify-js
+$ npm i -D uglify-js
+
+
+```
+
+## uglify-es
+
+```sh
+# 从 NPM 全局安装，作为一个命令行工具使用:
+$ npm install --global uglify-es
+# Alias
+$ npm i -g uglify-es
+
+
+# 从 NPM 本地安装，作为项目的一个开发依赖包使用:
+$ npm install --save uglify-es
+$ npm install --save-dev uglify-es
+# Alias
+$ npm i -S uglify-es
+$ npm i -D uglify-es
+
+
+```
+
+***
+***
 
 # Command line usage
 
