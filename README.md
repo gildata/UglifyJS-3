@@ -1,4 +1,4 @@
-UglifyJS 3 (zh-Hans)
+UglifyJS 2 (zh-Hans)
 ==========
 
 > <p title="UglifyJS is a JavaScript parser, minifier, compressor and beautifier toolkit.">UglifyJS 是一个JavaScript解析器，缩小器，压缩器和美化工具包。</p>
@@ -18,6 +18,8 @@ UglifyJS 3 (zh-Hans)
 
 ## uglify-js
 
+> UglifyJS 2
+
 ```sh
 # 从 NPM 全局安装，作为一个命令行工具使用:
 $ npm install --global uglify-js
@@ -36,6 +38,8 @@ $ npm i -D uglify-js
 ```
 
 ## uglify-es
+
+> UglifyJS 3
 
 ```sh
 # 从 NPM 全局安装，作为一个命令行工具使用:
