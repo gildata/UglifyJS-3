@@ -63,6 +63,14 @@ $ npm i -D uglify-es
 
 # Command line usage
 
+```sh
+# 从 NPM 全局安装，作为一个命令行工具使用:
+$ npm i -g uglify-es
+# OR
+$ npm i -g uglify-js
+
+```
+
     uglifyjs [input files] [options]
 
 UglifyJS can take multiple input files.  It's recommended that you pass the
