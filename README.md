@@ -18,6 +18,8 @@ UglifyJS 3 (zh-Hans)
 
 ## uglify-js
 
+> UglifyJS 2
+
 ```sh
 # 从 NPM 全局安装，作为一个命令行工具使用:
 $ npm install --global uglify-js
@@ -36,6 +38,8 @@ $ npm i -D uglify-js
 ```
 
 ## uglify-es
+
+> UglifyJS 3
 
 ```sh
 # 从 NPM 全局安装，作为一个命令行工具使用:
